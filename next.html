@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Doggo Adventures</title>
+	<style>
+		#header{text-align:center;color:white;background-color:hsla(131,100%,19%,1.00);padding:10px;font-style:italic;font-size:500%;}
+		.faq {padding:10px;border:4px solid #FFFFFF;background-color:#B9DDB0;}
+		.faqcol {display:flex;flex-direction:column;background-color:darkseagreen;justify-content:space-around;padding:20px;align-items:stretch;max-width:35%;max-height:900px}
+		.col{display:flex;flex-direction:column;}
+		.container {display:flex;justify-content:space-between;}
+		.form {display:flex;padding:20px;border:4px solid #8FBC8F;background-color:#FFFFFF;}
+		body {background-color:#FFFBE9;font-family: 'Playpen Sans', cursive;}
+		h2 {font-size:250%;text-align:center;}
+		h3 {font-size:200%;}
+		h4 {font-size:150%;}
+		p {font-size:120%;}
+		@media screen and (max-width:480px){.container{flex-direction:column}}
+	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 id="header"> FAQ </h1>
+		<h2 class="head2">Questions, Queries, and Comments</h2>
+		<br>
+	<div class="container">
+		<div class="col">
+			<h3>Learn More About the Kennedy Canines Here!</h3>
+			<img src="images/question.jpg" alt="Bishop & Chloe at the park on a sunny day" style="max-width:95%;padding-left:10px">
+			<p>Ever had a question about these fur-babies that this site doesn't cover? This is the page to get answers. To your right are some frequently asked questions and below are some facts about their breeds! If there is a specific question you still can't find the answer to here, there is form below to input your queries. Thanks for visiting, enjoy!</p>
+			<p>Chloe's Breed:</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/UBPJVYkRqRk?si=FUxSt-srmPeDCgzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<p>Bishop's Breed:</p>
+			<iframe src="https://embarkvet.com/resources/dog-breeds/eastern-european-village-dog/" title="Eastern European Village Dog Facts"></iframe>
+		</div>
+		<div class="faqcol"> 
+			<div class="faq"><h4>What do the dogs like to eat?</h4><p>Chloe is like a vegetarian, she willingly and eagerly eats almost every variety of plant and produce. Bishop on the other hand takes some more convincing...</p></div><br>
+			<div class="faq"><h4>Are they friendly/safe?</h4><p>Yes! (Mostly) Bishop is friendly with almost everyone, he cries when we pass other dogs on walks because he wants to play. Chloe may sound like a grouch, but her grumbles are not growls, she is just talkative! She usually says hello and is open to be pet and cuddled :)</p></div><br>
+			<div class="faq"><h4>Can I steal your dogs?</h4><p>NO!!!!!!!!!!!</p></div>
+		</div>
+	</div>
+	<br>
+	<h2>Still Feeling Nosy? Ask Away</h2>
+	<div class="container">
+		<img src="images/nose.jpg" alt="Bishop's nose very close to the Camera" title="Dog Most Likely to Stick His Nose in Your Business: Bishie">
+		<div class="form">
+		<form action="">
+			<label for="name" style="font-style:italic">Name:</label><br>
+			<input type="text" id="name" style="background-color:#FFFBE9"><br>
+			<label for="dog" style="font-style:italic">Who are you asking about?</label><br>
+			<input type="checkbox" id="bishop" name="dog">
+			<label for="bishop">Bishop</label> <br>
+			<input type="checkbox" id="chloe" name="dog">
+			<label for="chloe">Chloe</label><br>
+			<label for="question" style="font-style:italic">What do you want to know?</label><br>
+			<input type="text" id="question" style="width:500px;height:100px;background-color:#FFFBE9"><br>
+			<input type="submit" value="All done!">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
